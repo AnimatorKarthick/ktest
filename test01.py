@@ -1,5 +1,8 @@
 import os
+import logging
 
 print ("Testing Git repository")
 
-print (__file__)
+LOG = logging.Logger(__file__)
+
+LOG.debug("Testing succesfull...")
