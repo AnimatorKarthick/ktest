@@ -2,4 +2,4 @@ import os
 
 
 def get_user():
-    print (os.getlogin())
+    return os.getlogin()
